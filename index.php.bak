@@ -1,0 +1,5 @@
+<?php 
+phpinfo();
+echo "Hello World!";
+echo date('y-m-d H:i:s');
+?>

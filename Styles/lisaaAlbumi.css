@@ -1,0 +1,36 @@
+#lomake {
+  text-align: left;
+  color: white;
+  margin-left: 30%;
+  width: 55%;
+}
+label.lomake {
+  display: block;
+  width: 8em;
+  float: left;
+}
+p {
+	margin-left: 0%;
+	margin-right: 0%;
+	text-align: left;
+	font-size: 13pt;
+}
+#lisatietoja {
+	margin-right: 10px;
+	text-align: left;
+}
+span.virhe2 {
+  margin-left: 8%;
+  color: red;
+}
+@media screen and (max-width: 1440px) {
+  p {
+	font-size: 10pt;
+	}
+  label {
+    font-size: 10pt;
+  }
+span {
+	font-size: 10pt;
+}
+}

@@ -1,0 +1,126 @@
+html {
+  background: url(../Images/wallpaper.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-family: "Palatino Linotype", "Times New Roman";
+}
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 16px;
+  background-color: black;
+  font-weight: bold;
+}
+li {
+  display: inline;
+  padding: inherit;
+
+}
+li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  font-size: 12pt;
+}
+li a:hover {
+  background-color: gray;
+  padding: 16px;
+}
+.active {
+  background-color: gray;
+  color: white;
+  padding: 18px 18px 16px 18px;
+}
+#red-1 {
+  background-color: #3c0606;
+  width: 15%;
+  height: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+#red-2 {
+  background-color: #3c0606;
+  width: 15%;
+  height: 100%;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  z-index: 10;
+  padding: 38px;
+}
+.menu {
+	z-index: 11;
+	position: relative;
+	right: 0;
+	left: 0;
+	top: 0;
+}
+
+p {
+	font-family: "Palatino Linotype", "Times New Roman";
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: left;
+	font-size: 13pt;
+}
+.nayttospani {
+	color: lightblue;
+}
+#listaus {
+	border: none;
+	margin-left: 30%;
+}
+td {
+	text-align: left;
+	padding-right: 3px;
+}
+input {
+	background-color: black;
+	color: white;
+	border-color: black;
+	padding: 2px 6px 2px 6px;	
+	margin-left: 3px;
+}
+.hidden {
+	display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  p {
+	font-size: 10pt;
+	}
+  label {
+    font-size: 10pt;
+  }
+  #contact-h {
+    font-size: 100%;
+  }
+  ul {
+  padding: 12px;
+  }
+  li a {
+  padding: 7px 8px;
+  font-size: 12pt;
+  }
+}
